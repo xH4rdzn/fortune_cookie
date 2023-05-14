@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --white: #fff;
+  --ff-primary: 'Montserrat', sans-serif;
+  --ff-secondary: 'DM Sans', sans-serif;
+  --ff-third: 'Dancing Script', cursive;
+}
+
+.none {
+  display: none;
+}
+
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #BB00FF 100%) no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  background-color: var(--white);
+  box-shadow: 0px 2rem 5rem rgba(0, 0, 0, 0.8);
+  border-radius: .5rem;
+  text-align: center;
+  width: 42.8rem;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+main h1 {
+  font-family: var(--ff-primary);
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #34355B;
+  margin-bottom: 1.4rem;
+}
+
+main p {
+  font-family: var(--ff-secondary);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #34355B;
+  margin-bottom: 2rem;
+}
+
+.screen_two main {
+  padding: 4.8rem 6.4rem;
+}
+
+.screen_two {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+
+.box-fortune {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10.7rem;
+  width: 29.3rem;
+  background: #E4EDF1;
+  box-shadow: .2rem .2rem .2rem rgba(85, 85, 85, 0.5);  
+}
+
+.box-fortune p {
+  font-family: var(--ff-third);
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  font-weight: 400;
+  color: #000;
+  margin: 1rem;
+  text-align: center;
+}
+
+button {
+  font-family: var(--ff-secondary);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  border: none;
+  padding: 1.6rem;
+  color: var(--white);
+  background: #FF9500;
+  border-radius: .4rem;
+  width: 17.4rem;
+  margin: 0 auto;
+}
